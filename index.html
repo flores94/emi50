@@ -37,28 +37,22 @@
 				<option value="Catamarca">Catamarca</option>
 				<option value="Buenos Aires">Buenos Aires</option>
 				<option value="Córdoba">Córdoba</option>
-				<option value="Santa Fe">Santa Fe</option>
-				<option value="Mendoza">Mendoza</option>
-				<option value="Jujuy">Jujuy</option>
-				<option value="La Rioja">La Rioja</option>
-				<option value="San Juan">San Juan</option>
-				<option value="San Luis">San Luis</option>
-				<option value="Entre Ríos">Entre Ríos</option>
-				<option value="Corrientes">Corrientes</option>
-				<option value="Misiones">Misiones</option>
-				<option value="Formosa">Formosa</option>
-				<option value="Chaco">Chaco</option>
-				<option value="La Pampa">La Pampa</option>
-				<option value="Neuquén">Neuquén</option>
-				<option value="Río Negro">Río Negro</option>
-				<option value="Chubut">Chubut</option>
-				<option value="Santa Cruz">Santa Cruz</option>
-				<option value="Tierra del Fuego">Tierra del Fuego</option>
+				<option value="Otras">Otras</option>
 			</select>
-			
-			<label>Profesión:</label>
-			<input type="text" id="profesion" placeholder="Profesión" required>
-			
+			<label for="profesion">Profesión:</label>
+			<select id="profesion" name="profesion" required>
+			  <option value="">Seleccioná tu profesión</option>
+			  <option value="Arquitecto/a">Arquitecto/a</option>
+			  <option value="Ingeniero/a civil">Ingeniero/a civil</option>
+			  <option value="Dis. de interiores">Dis. de interiores</option>
+			  <option value="Estudiantes">Estudiantes</option>
+			  <option value="Constructora">Constructora</option>
+			  <option value="Desarrolladores">Desarrolladores</option>
+			  <option value="MMO">MMO</option>
+			  <option value="Contratista">Contratista</option>
+			  <option value="Oficios/Gremio">Oficios/Gremio</option>
+			  <option value="Otros">Otros</option>
+		   </select>
 			<button onclick="guardarRegistro()">Confirmar</button>
 		</div>
 	</div>
@@ -69,7 +63,6 @@
 	<div class="game-over">
 		<h2>Muchas Gracias</h2>
 		<p>reclama tu premio</p>
-		<p>...</p>
 	</div>
 	<div class="game-ready">
 		<div id="start-button">Start</div>
@@ -77,6 +70,6 @@
 	</div>
 	
 </div>
-<footer>Project By: TomNgo03</footer>
+<footer>Project By: EMISRL</footer>
 </body>
 </html>
